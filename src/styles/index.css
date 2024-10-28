@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.palillo{
+    width: 10px;
+    height: 80px;
+    
+}
+
+.cajetin{
+    width: 90px;
+    height: 200px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo{
+   height: 2.5rem;
+   border-radius: 50%;
+   align-self: center;
+    width: 60px;
+    height: 60px;
+}
+
+.on_red{
+    box-shadow: 0px 0px 35px 0px rgba(247,13,5,1);
+}
+
+.on_yellow{
+    box-shadow: 0px 0px 35px 0px rgba(245,225,8,1);
+}
+
+.on_green{
+    box-shadow: 0px 0px 35px 0px rgba(10,245,65,1);
+}
